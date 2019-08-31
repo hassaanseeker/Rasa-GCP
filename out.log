@@ -1,0 +1,95 @@
+2019-08-20 14:01:28,973 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-20 14:07:22,444 [ERROR]  Exception occurred while handling uri: 'http://011624e9.ngrok.io/favicon.ico'
+Traceback (most recent call last):
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-20 14:09:24,146 [WARNI]  Invalid fb verify token! Make sure this matches your webhook settings on the facebook app.
+2019-08-20 14:25:46,952 [WARNI]  Received a message from facebook that we can not handle. Message: {'sender': {'id': '114563493238043'}, 'recipient': {'id': '2244251632368094'}, 'timestamp': 1566296743978, 'message': {'mid': 'Qh7cj6THXS1OZRRQrXBVlJ3zp4TNVOvvcOFDpyjpap_I6r2C9mWtdxglSgGAdz7fq85sg9CzFl-4P-j6g0bvbQ', 'is_echo': True, 'text': 'Great carry on!', 'app_id': 984130168596419}}
+2019-08-20 14:27:50,183 [WARNI]  Received a message from facebook that we can not handle. Message: {'sender': {'id': '114563493238043'}, 'recipient': {'id': '2244251632368094'}, 'timestamp': 1566296865901, 'message': {'mid': 'Xhfo3MwoTaxWdeNUs2YsrJ3zp4TNVOvvcOFDpyjpap91MkHR8XLZTl4M3V3mKTSlqjgzYvFRUcNI1hWa9rzlUQ', 'is_echo': True, 'text': 'Great carry on!', 'app_id': 984130168596419}}
+2019-08-20 15:26:05,617 [ERROR]  Exception occurred while handling uri: 'http://011624e9.ngrok.io/webhooks/facebook/webhook'
+Traceback (most recent call last):
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\sanic\app.py", line 917, in handle_request
+    response = await response
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 319, in webhook
+    await messenger.handle(request.json)
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 66, in handle
+    for message in entry["messaging"]:
+KeyError: 'messaging'
+2019-08-20 15:26:27,306 [ERROR]  Exception occurred while handling uri: 'http://011624e9.ngrok.io/webhooks/facebook/webhook'
+Traceback (most recent call last):
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\sanic\app.py", line 917, in handle_request
+    response = await response
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 319, in webhook
+    await messenger.handle(request.json)
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 66, in handle
+    for message in entry["messaging"]:
+KeyError: 'messaging'
+2019-08-20 15:26:36,011 [ERROR]  Exception occurred while handling uri: 'http://011624e9.ngrok.io/webhooks/facebook/webhook'
+Traceback (most recent call last):
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\sanic\app.py", line 917, in handle_request
+    response = await response
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 319, in webhook
+    await messenger.handle(request.json)
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 66, in handle
+    for message in entry["messaging"]:
+KeyError: 'messaging'
+2019-08-20 15:26:58,435 [ERROR]  Exception occurred while handling uri: 'http://011624e9.ngrok.io/webhooks/facebook/webhook'
+Traceback (most recent call last):
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\sanic\app.py", line 917, in handle_request
+    response = await response
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 319, in webhook
+    await messenger.handle(request.json)
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 66, in handle
+    for message in entry["messaging"]:
+KeyError: 'messaging'
+2019-08-20 15:27:18,152 [ERROR]  Exception occurred while handling uri: 'http://011624e9.ngrok.io/webhooks/facebook/webhook'
+Traceback (most recent call last):
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\sanic\app.py", line 917, in handle_request
+    response = await response
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 319, in webhook
+    await messenger.handle(request.json)
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 66, in handle
+    for message in entry["messaging"]:
+KeyError: 'messaging'
+2019-08-20 15:27:36,126 [ERROR]  Exception occurred while handling uri: 'http://011624e9.ngrok.io/webhooks/facebook/webhook'
+Traceback (most recent call last):
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\sanic\app.py", line 917, in handle_request
+    response = await response
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 319, in webhook
+    await messenger.handle(request.json)
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 66, in handle
+    for message in entry["messaging"]:
+KeyError: 'messaging'
+2019-08-20 15:27:41,158 [WARNI]  Wrong fb secret! Make sure this matches the secret in your facebook app settings
+2019-08-20 15:28:00,045 [ERROR]  Exception occurred while handling uri: 'http://011624e9.ngrok.io/webhooks/facebook/webhook'
+Traceback (most recent call last):
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\sanic\app.py", line 917, in handle_request
+    response = await response
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 319, in webhook
+    await messenger.handle(request.json)
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 66, in handle
+    for message in entry["messaging"]:
+KeyError: 'messaging'
+2019-08-20 15:57:37,480 [ERROR]  Exception occurred while handling uri: 'http://011624e9.ngrok.io/webhooks/facebook/webhook'
+Traceback (most recent call last):
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\sanic\app.py", line 917, in handle_request
+    response = await response
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 319, in webhook
+    await messenger.handle(request.json)
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 66, in handle
+    for message in entry["messaging"]:
+KeyError: 'messaging'
+2019-08-20 15:58:02,049 [ERROR]  Exception occurred while handling uri: 'http://011624e9.ngrok.io/webhooks/facebook/webhook'
+Traceback (most recent call last):
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\sanic\app.py", line 917, in handle_request
+    response = await response
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 319, in webhook
+    await messenger.handle(request.json)
+  File "c:\users\hassaanseeker\anaconda3\lib\site-packages\rasa\core\channels\facebook.py", line 66, in handle
+    for message in entry["messaging"]:
+KeyError: 'messaging'
