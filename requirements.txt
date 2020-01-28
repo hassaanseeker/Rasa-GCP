@@ -11,7 +11,7 @@ fakeredis==1.0.3
 pymongo==3.8.0
 numpy==1.16.3
 scipy==1.2.1
-tensorflow==1.14.0
+tensorflow==1.15.2
 # setuptools comes from tensorboard requirement:
 # https://github.com/tensorflow/tensorboard/blob/1.14/tensorboard/pip_package/setup.py#L33
 setuptools >= 41.0.0
